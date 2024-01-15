@@ -14,6 +14,17 @@ body {
     width: 100vw;
 }
 
+.slide { 
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.slide.active{
+    opacity: 1;
+}
+
 .slide img {
     display: block;
     width: 100%;
