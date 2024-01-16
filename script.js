@@ -15,5 +15,9 @@ buttons.forEach((button) => {
         let newIndex
         newIndex = calcNextSlide + [...slides].indexOf(slideActive)
         console.log(newIndex)
+
+        slides[newIndex].classList.add("active")
+        slideActive.classList.remove("active")
+
     })
 })
