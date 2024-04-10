@@ -1,2 +1,3 @@
 # carousel
-Link of project: https://ap-carousel.vercel.app/
+
+For a live experience, visit my [online demo](https://ap-carousel.vercel.app/).
